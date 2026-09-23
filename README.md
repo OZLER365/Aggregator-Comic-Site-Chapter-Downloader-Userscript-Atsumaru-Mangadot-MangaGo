@@ -14,7 +14,7 @@ Currently supported platforms: **Atsumaru (atsu.moe)**, **Mangadot (mangadot.net
 * **🧭 SPA (Single Page Application) Tracking:** Dynamically hooks into `window.fetch` and `XMLHttpRequest` to intercept JSON payloads. It updates the download cache on the fly when you change chapters.
 * **🎨 Seamless Native UI Integration:** Injects custom download buttons equipped with dynamic SVG icons and percentage trackers that perfectly match the native styling and layout grids of each respective site.
 * **🛡️ Isolated Execution:** Code for each supported site runs in entirely separate function scopes based on the active hostname, guaranteeing zero variable contamination or cross-site layout breakage.
-* **📱 Mobile Compatible:** Works on both desktop and mobile devices via Tampermonkey (only chromium browsers) or other script managers (e.g., Violentmonkey, Greasemonkey).
+* **📱 Mobile Compatible:** Works on both desktop and mobile devices via Tampermonkey or other script managers (e.g., Violentmonkey, Greasemonkey).
 
 ---
 
@@ -35,7 +35,11 @@ Currently supported platforms: **Atsumaru (atsu.moe)**, **Mangadot (mangadot.net
 2. Follow the same steps as desktop installation above.
 3. The script will work seamlessly on mobile browsers, allowing you to download chapters directly to your device.
 
-*Note: Dedicated Chrome, Edge, and Firefox extension builds are coming soon.*
+### Extension Version
+> * **Firefox Add-ons:** [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/android/addon/atsumangadotmangagodownloader/)
+> * **Edge Add-ons:** [Install on Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/atsumaru-mangadot-mangago/bngfpihjnbbchghmdbmdfefjejjddnhe)
+
+*Note: For mobile it only supports chromium browsers*
 
 ---
 
